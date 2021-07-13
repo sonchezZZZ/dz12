@@ -32,10 +32,9 @@ public class Employee implements Comparable<Employee> {
 
     @Override
     public int compareTo(Employee person) {
-        if (this.getID() > person.getID()){
+        if (this.getID() > person.getID()) {
             return 1;
-        }
-        else if (this.getID() < person.getID()){
+        } else if (this.getID() < person.getID()) {
             return -1;
         }
         return 0;
